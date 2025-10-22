@@ -1,8 +1,8 @@
-Calculator MCP
+#Calculator MCP
 
 A Model Context Protocol (MCP) implementation of a calculator in Python, supporting standard input/output (stdio) and HTTP streaming for remote usage. This project demonstrates basic MCP integration and how to expose a simple calculator over multiple interfaces.
 
-Features
+###Features
 
 Basic arithmetic operations: addition, subtraction, multiplication, division.
 
@@ -12,7 +12,7 @@ Supports HTTP streaming for remote requests.
 
 Minimal dependencies, designed for easy extension into MCP workflows.
 
-Requirements
+###Requirements
 
 Python 3.8+
 
@@ -24,7 +24,7 @@ Install dependencies:
 
 pip install requests flask
 
-Usage
+###Usage
 1. Using STDIO
 
 Run the calculator locally:
@@ -63,7 +63,7 @@ calculator-mcp/
 ├─ README.md               # This documentation
 └─ requirements.txt        # Python dependencies
 
-Contributing
+###Contributing
 
 Feel free to fork, suggest improvements, or extend functionality with:
 
