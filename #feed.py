@@ -4,7 +4,7 @@ import feedparser
 
 mcp = FastMCP(name="FreeCodeCamp Feed Searcher")
 
-@mcp.tool()
+@mcp.tool() #####################################
 def fcc_news_search(query:str, max_results:int=3):
     """Search FreeCodeCamp news feed via RSS by title/description"""
     feed = feedparser.parse("https://www.freecodecamp.org/news/rss/")
@@ -40,4 +40,5 @@ def fcc_secret_message():
     return "Keep exploring! and happy coding!"
 
 if __name__ == "__main__":
+
     mcp.run() #STDIO
